@@ -2,11 +2,16 @@
 alert('Obrigado por olhar o meu curriculo')
 
 
-function text() {
-    let text = document.getElementById("icon")
-    text.addEventListener(onmouseenter,tecnologia)
+
+
+function imgGr(tm) {
+    
+    tm.style.height = "96px"
+    tm.style.width = "96px"
 }
-function reset() {
-   // document.getElementById("icon").innerHTML = ""
+function imgNor(tm) {
+    
+    tm.style.height = "32px"
+    tm.style.width = "32px"
 }
 
